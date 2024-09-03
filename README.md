@@ -278,7 +278,3 @@ This repository contains a concise, yet comprehensive guide to mastering Markdow
 - **Explanation:**
 
   A summary of the key concepts covered in the ebook, with links to further resources like [Markdown Guide](https://www.markdownguide.org) and practice exercises to solidify the learning.
-
-### Ebook Conclusion
-
-This 1-hour Markdown ebook is designed to provide a fast yet comprehensive overview of Markdown, ensuring that readers can confidently use Markdown for their documentation, content creation, and coding needs. The topics are laid out to build a strong foundation, starting from the basics and moving toward advanced features.
