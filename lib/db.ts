@@ -2,14 +2,14 @@ import { Pool } from "pg";
 
 const DATABASE_URL = process.env.DATABASE_URL;
 
-const pool = new Pool({
+export const pool = new Pool({
     connectionString: DATABASE_URL,
     ssl: {
         rejectUnauthorized: false, // Ensure proper SSL connection (required by Neon)
     },
 });
 
-const connect = async () => {
+export const connect = async () => {
     try {
         const client = await pool.connect();
 
@@ -24,4 +24,4 @@ const connect = async () => {
     }
 };
 
-export default connect;
+export default pool;
