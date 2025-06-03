@@ -1,6 +1,5 @@
 import './globals.css';
 import { Metadata } from 'next';
-import Navbar from '@/components/Navbar';
 
 export const metadata: Metadata = {
   title: 'Pratiik Thapa | Trans Rights Activist & HR Professional',
