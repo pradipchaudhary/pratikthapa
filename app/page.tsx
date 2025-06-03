@@ -12,14 +12,14 @@ export default function Home() {
         <Link href="/contact" className="text-blue-600 hover:underline">Contact</Link>
       </div>
       <div className="mt-8">
-        <a
+        <Link
           href="https://www.linkedin.com/in/pratiik-thapa-502876205/"
           target="_blank"
           rel="noopener noreferrer"
           className="text-gray-700 hover:text-blue-600"
         >
           🔗 LinkedIn
-        </a>
+        </Link>
       </div>
     </main>
   );
