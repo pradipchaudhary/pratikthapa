@@ -42,8 +42,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="bg-gray-100 text-gray-800 font-sans antialiased">
-        <Navbar />
-        <main className="min-h-screen px-4 py-8">{children}</main>
+        <main className="min-h-screen">{children}</main>
       </body>
     </html>
   );
