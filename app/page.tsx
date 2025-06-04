@@ -22,10 +22,10 @@ export default function Home() {
       <section className="max-w-4xl mx-auto px-4 py-12">
         <h2 className="text-2xl font-semibold mb-4">About Me</h2>
         <p className="mb-4">
-          I began in customer service, then moved to banking with Global IME Bank in 2016. My branch at NIC ASIA was awarded "Best New Branch" within 6 months.
+          I began in customer service, then moved to banking with Global IME Bank in 2016. My branch at NIC ASIA was awarded &quot;Best New Branch&quot; within 6 months.
         </p>
         <p>
-          Since 2020, I’ve focused on trans rights activism, combining financial and advocacy experience to promote inclusive development in Nepal.
+          Since 2020, I&#39;ve focused on trans rights activism, combining financial and advocacy experience to promote inclusive development in Nepal.
         </p>
       </section>
 
@@ -34,12 +34,12 @@ export default function Home() {
         <ul className="space-y-6">
           <li>
             <h3 className="font-bold">Federation of Dalit Women Nepal</h3>
-            <p className="text-sm italic">Admin & Finance Officer (Jun 2024 – Apr 2025)</p>
+            <p className="text-sm italic">Admin &amp; Finance Officer (Jun 2024 – Apr 2025)</p>
             <p>Led all finance and admin functions; managed donor compliance.</p>
           </li>
           <li>
             <h3 className="font-bold">LOOM</h3>
-            <p className="text-sm italic">Finance & Admin Co-Ordinator (Aug 2020 – Jul 2024)</p>
+            <p className="text-sm italic">Finance &amp; Admin Co-Ordinator (Aug 2020 – Jul 2024)</p>
             <p>Oversaw project finances, reporting, and operational efficiency.</p>
           </li>
           <li>
@@ -58,9 +58,9 @@ export default function Home() {
       <section className="max-w-4xl mx-auto px-4 py-12">
         <h2 className="text-2xl font-semibold mb-4">Education</h2>
         <ul className="list-disc list-inside space-y-2">
-          <li>St. Xavier’s College – Bachelors in Business Studies (2013 – 2017)</li>
+          <li>St. Xavier&rsquo;s College – Bachelors in Business Studies (2013 – 2017)</li>
           <li>Trinity International College – Plus Two in Business (2011 – 2013)</li>
-          <li>Blooming Scholar's Academy</li>
+          <li>Blooming Scholar&apos;s Academy</li>
         </ul>
       </section>
 
