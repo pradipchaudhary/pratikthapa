@@ -8,18 +8,18 @@ export default function Home() {
         Trans Rights Activist | HR & Admin | Social Advocate
       </p>
       <div className="mt-6">
-        <a href="/about" className="mr-4 text-blue-600 hover:underline">About</a>
-        <a href="/contact" className="text-blue-600 hover:underline">Contact</a>
+        <Link href="/about" className="mr-4 text-blue-600 hover:underline">About</Link>
+        <Link href="/contact" className="text-blue-600 hover:underline">Contact</Link>
       </div>
       <div className="mt-8">
-        <a
+        <Link
           href="https://www.linkedin.com/in/pratiik-thapa-502876205/"
           target="_blank"
           rel="noopener noreferrer"
           className="text-gray-700 hover:text-blue-600"
         >
           🔗 LinkedIn
-        </a>
+        </Link>
       </div>
     </main>
   );
