@@ -1,9 +1,12 @@
 'use client';
 
 import Link from 'next/link';
+import Header from '../components/Header'; // adjust the path if needed
 
 export default function Home() {
   return (
+    <>
+    <Header />
     <main className="bg-gray-50 min-h-screen text-gray-800">
       <section className="text-center py-10 bg-gray-900 text-white">
         <h1 className="text-4xl font-bold">Pratiik Thapa</h1>
@@ -89,5 +92,6 @@ export default function Home() {
         <p>&copy; 2025 Pratiik Thapa. All rights reserved.</p>
       </footer>
     </main>
+      </>
   );
 }
