@@ -1,26 +1,58 @@
-# Pratik Thapa – Portfolio
+# 🌟 Pratik Thapa – Developer Portfolio
 
-A clean and professional personal portfolio built with the latest version of Next.js using the App Router.
+A modern, responsive personal portfolio built with **Next.js (App Router)** and **Tailwind CSS**, designed to showcase my work, skills, and advocacy.
+
+---
 
 ## 🚀 Features
-- Home, About, Projects, Contact sections
-- Responsive and SEO-optimized layout
-- Clean UI with Tailwind CSS
-- LinkedIn social integration
+
+- 📄 Sections: Home, About, Projects, Contact
+- 📱 Mobile-first, fully responsive layout
+- ⚡ SEO-friendly structure
+- 🎨 Clean and minimal UI with Tailwind CSS
+- 🔗 Social media integration (LinkedIn)
+
+---
 
 ## 🔗 Live Demo
-[Coming Soon...]
 
+**Coming Soon...**
+
+Stay tuned for the live version of my portfolio!
+
+---
 
 ## 👤 About Me
-Hi, I’m **Pratiik Thapa**, a passionate Trans Rights Activist based in Kathmandu, Nepal. With experience in **Banking**, **Procurement**, **Administration**, and **Human Resources**, I work to empower marginalized communities through advocacy and professional development. Currently working with the **Federation of Dalit Women Nepal**.
 
+Hi! I’m **Pratiik Thapa**, a passionate **Trans Rights Activist** based in **Kathmandu, Nepal**. I bring diverse experience across:
 
-## 🛠️ Tech Stack
-- Next.js (App Router)
-- Tailwind CSS
-- TypeScript
-- React Icons
+- **Banking**
+- **Procurement**
+- **Administration**
+- **Human Resources**
+
+Currently, I work with the **Federation of Dalit Women Nepal**, where I focus on empowering marginalized communities through advocacy, skill-building, and inclusive organizational development.
+
+---
+
+## 🛠 Tech Stack
+
+| Technology     | Description                         |
+|----------------|-------------------------------------|
+| Next.js        | React framework (App Router)        |
+| Tailwind CSS   | Utility-first CSS framework         |
+| TypeScript     | Strongly-typed JavaScript           |
+| React Icons    | Icon library for React applications |
+
+---
 
 ## 📬 Contact
-- LinkedIn: [Pratik Thapa](https://www.linkedin.com/in/pratiik-thapa-502876205/)
+
+Let's connect:
+
+- 💼 [LinkedIn – Pratik Thapa](https://www.linkedin.com/in/pratiik-thapa-502876205/)
+
+---
+
+> “Code with purpose. Advocate with passion.”
+
