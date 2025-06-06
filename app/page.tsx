@@ -1,43 +1,30 @@
+'use client';
+
 import Link from 'next/link';
+import Header from '../components/Header'; // adjust the path if needed
 
 export default function Home() {
   return (
-    <main className="min-h-screen flex items-center justify-center bg-gray-50 px-6 py-16">
-      <div className="max-w-xl w-full text-center">
-        <h1 className="text-4xl font-semibold text-gray-900">
-          Hi, I’m <span className="text-blue-600">Pratiik Thapa</span>
-        </h1>
-        <p className="mt-3 text-lg text-gray-600">
-          Trans Rights Activist · HR &amp; Administration · Social Advocate
-        </p>
-
-        <nav className="mt-8 flex justify-center space-x-8">
-          <Link
-            href="/about"
-            className="text-gray-700 hover:text-blue-600 font-medium transition"
-          >
-            About
-          </Link>
-          <Link
-            href="/contact"
-            className="text-gray-700 hover:text-blue-600 font-medium transition"
-          >
-            Contact
-          </Link>
-        </nav>
-
-        <div className="mt-10">
-          <a
-            href="https://www.linkedin.com/in/pratiik-thapa-502876205/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block text-blue-600 hover:text-blue-800 font-semibold transition"
-            aria-label="LinkedIn Profile"
-          >
-            🔗 Connect on LinkedIn
-          </a>
-        </div>
+    <main className="max-w-4xl mx-auto px-4 py-16 text-center">
+      <h1 className="text-4xl font-bold">Hi, I’m Pratiik Thapa 👋</h1>
+      <p className="mt-4 text-lg text-gray-600">
+        Trans Rights Activist | HR & Admin | Social Advocate
+      </p>
+      <div className="mt-6">
+        <a href="/about" className="mr-4 text-blue-600 hover:underline">About</a>
+        <a href="/contact" className="text-blue-600 hover:underline">Contact</a>
+      </div>
+      <div className="mt-8">
+        <a
+          href="https://www.linkedin.com/in/pratiik-thapa-502876205/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-gray-700 hover:text-blue-600"
+        >
+          🔗 LinkedIn
+        </a>
       </div>
     </main>
+      </>
   );
 }
