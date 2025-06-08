@@ -1,14 +1,12 @@
 'use client';
 
 import Link from 'next/link';
-import Header from '../components/Header'; // adjust the path if needed
 
 export default function Home() {
   return (
-    <>
-    <Header />
-    <main className="bg-gray-50 min-h-screen text-gray-800">
-      <section className="text-center py-10 bg-gray-900 text-white">
+    <main className="bg-gray-50 min-h-screen text-gray-800 font-sans">
+      {/* Header */}
+      <header className="bg-gray-900 text-white text-center py-10">
         <h1 className="text-4xl font-bold">Pratiik Thapa</h1>
         <p className="text-lg mt-2">
           Trans Rights Activist | Banking & Finance | Admin | HR
@@ -16,82 +14,102 @@ export default function Home() {
         <Link
           href="https://www.linkedin.com/in/pratiik-thapa-502876205"
           target="_blank"
-          className="text-blue-300 underline mt-2 block"
+          rel="noopener noreferrer"
+          className="text-blue-300 underline mt-2 inline-block"
         >
-          LinkedIn
+          View LinkedIn Profile
         </Link>
-      </section>
+      </header>
 
+      {/* About Me */}
       <section className="max-w-4xl mx-auto px-4 py-12">
         <h2 className="text-2xl font-semibold mb-4">About Me</h2>
         <p className="mb-4">
-          I began in customer service, then moved to banking with Global IME Bank in 2016. My branch at NIC ASIA was awarded &quot;Best New Branch&quot; within 6 months.
+          I began my journey in customer service and transitioned to banking with Global IME Bank in 2016.
+          At NIC ASIA, my branch was awarded &quot;Best New Branch&quot; within six months of operation.
         </p>
         <p>
-          Since 2020, I&#39;ve focused on trans rights activism, combining financial and advocacy experience to promote inclusive development in Nepal.
+          Since 2020, I’ve been actively involved in trans rights activism—leveraging my professional
+          background to advocate for inclusive development across Nepal.
         </p>
       </section>
 
+      {/* Experience */}
       <section className="max-w-4xl mx-auto px-4 py-12">
-        <h2 className="text-2xl font-semibold mb-4">Experience</h2>
+        <h2 className="text-2xl font-semibold mb-6">Professional Experience</h2>
         <ul className="space-y-6">
           <li>
-            <h3 className="font-bold">Federation of Dalit Women Nepal</h3>
-            <p className="text-sm italic">Admin &amp; Finance Officer (Jun 2024 – Apr 2025)</p>
-            <p>Led all finance and admin functions; managed donor compliance.</p>
+            <h3 className="text-lg font-bold">Federation of Dalit Women Nepal</h3>
+            <p className="text-sm italic">Admin & Finance Officer (Jun 2024 – Apr 2025)</p>
+            <p>Managed full administrative and financial responsibilities; ensured donor compliance.</p>
           </li>
           <li>
-            <h3 className="font-bold">LOOM</h3>
-            <p className="text-sm italic">Finance &amp; Admin Co-Ordinator (Aug 2020 – Jul 2024)</p>
-            <p>Oversaw project finances, reporting, and operational efficiency.</p>
+            <h3 className="text-lg font-bold">LOOM</h3>
+            <p className="text-sm italic">Finance & Admin Co-Ordinator (Aug 2020 – Jul 2024)</p>
+            <p>Oversaw project finances, budgeting, reporting, and daily operations.</p>
           </li>
           <li>
-            <h3 className="font-bold">NIC ASIA Bank</h3>
+            <h3 className="text-lg font-bold">NIC ASIA Bank</h3>
             <p className="text-sm italic">Operation Incharge (Apr 2018 – Oct 2019)</p>
-            <p>Branch management and daily operations.</p>
+            <p>Led branch operations, ensuring excellent service delivery and internal compliance.</p>
           </li>
           <li>
-            <h3 className="font-bold">Global IME Bank Limited</h3>
+            <h3 className="text-lg font-bold">Global IME Bank Limited</h3>
             <p className="text-sm italic">Junior Assistant (Jun 2016 – Apr 2018)</p>
-            <p>Supported departments during high workload seasons.</p>
+            <p>Supported operational teams during peak periods; assisted with customer service and admin.</p>
           </li>
         </ul>
       </section>
 
+      {/* Education */}
       <section className="max-w-4xl mx-auto px-4 py-12">
         <h2 className="text-2xl font-semibold mb-4">Education</h2>
         <ul className="list-disc list-inside space-y-2">
-          <li>St. Xavier&rsquo;s College – Bachelors in Business Studies (2013 – 2017)</li>
+          <li>St. Xavier’s College – Bachelor in Business Studies (2013 – 2017)</li>
           <li>Trinity International College – Plus Two in Business (2011 – 2013)</li>
-          <li>Blooming Scholar&apos;s Academy</li>
+          <li>Blooming Scholar’s Academy – Schooling</li>
         </ul>
       </section>
 
+      {/* Skills */}
       <section className="max-w-4xl mx-auto px-4 py-12">
         <h2 className="text-2xl font-semibold mb-4">Skills</h2>
-        <div className="flex flex-wrap gap-2">
-          <span className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full">Budgeting</span>
-          <span className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full">Donor Reporting</span>
-          <span className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full">Office Administration</span>
+        <div className="flex flex-wrap gap-3">
+          {['Budgeting', 'Donor Reporting', 'Office Administration'].map((skill) => (
+            <span
+              key={skill}
+              className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm"
+            >
+              {skill}
+            </span>
+          ))}
         </div>
       </section>
 
+      {/* Contact */}
       <section className="max-w-4xl mx-auto px-4 py-12">
         <h2 className="text-2xl font-semibold mb-4">Contact</h2>
-        <p>📍 Kathmandu, Bāgmatī, Nepal</p>
-        <p>
-          🔗{' '}
-          <Link href="https://www.linkedin.com/in/pratiik-thapa-502876205" target="_blank" className="text-blue-600 underline">
-            LinkedIn
-          </Link>
-        </p>
-        <p>📧 thapapratiik@gmail.com</p>
+        <address className="not-italic space-y-1 text-base">
+          <p>📍 Kathmandu, Bāgmatī, Nepal</p>
+          <p>
+            🔗{' '}
+            <Link
+              href="https://www.linkedin.com/in/pratiik-thapa-502876205"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 underline"
+            >
+              LinkedIn
+            </Link>
+          </p>
+          <p>📧 thapapratiik@gmail.com</p>
+        </address>
       </section>
 
+      {/* Footer */}
       <footer className="bg-gray-900 text-white text-center py-6">
-        <p>&copy; 2025 Pratiik Thapa. All rights reserved.</p>
+        <p>&copy; {new Date().getFullYear()} Pratiik Thapa. All rights reserved.</p>
       </footer>
     </main>
-      </>
   );
 }
