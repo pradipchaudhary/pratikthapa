@@ -8,17 +8,15 @@ export const metadata = {
 }
 
 export default function RootLayout({
-    children,
+  children,
 }: Readonly<{
-    children: React.ReactNode;
+  children: React.ReactNode;
 }>) {
-    return (
-        <html lang="en">
-           <body className="bg-gray-100 text-gray-800 font-sans">
-            <main className="min-h-screen flex items-center justify-center">
-              {children}
-            </main>
-          </body>
-        </html>
-    );
+  return (
+    <html lang="en">
+      <body className="bg-gray-100 text-gray-800 font-sans">
+        {children}
+      </body>
+    </html>
+  );
 }

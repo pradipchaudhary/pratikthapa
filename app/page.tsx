@@ -1,25 +1,13 @@
 'use client';
 
+import Header from '@/components/Header';
 import Link from 'next/link';
 
 export default function Home() {
   return (
-    <main className="bg-gray-50 min-h-screen text-gray-800 font-sans">
+    <main className="antialiased text-gray-800 bg-gray-50">
       {/* Header */}
-      <header className="bg-gray-900 text-white text-center py-10">
-        <h1 className="text-4xl font-bold">Pratiik Thapa</h1>
-        <p className="text-lg mt-2">
-          Trans Rights Activist | Banking & Finance | Admin | HR
-        </p>
-        <Link
-          href="https://www.linkedin.com/in/pratiik-thapa-502876205"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-blue-300 underline mt-2 inline-block"
-        >
-          View LinkedIn Profile
-        </Link>
-      </header>
+      <Header />
 
       {/* About Me */}
       <section className="max-w-4xl mx-auto px-4 py-12">
