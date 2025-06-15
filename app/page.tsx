@@ -34,6 +34,17 @@ export default function Home() {
         </p>
       </section>
 
+
+        <!-- About -->
+  <section id="about" class="max-w-4xl mx-auto px-6 py-20">
+    <h2 class="text-3xl font-semibold tracking-tight mb-6 fade">About Me</h2>
+    <p class="fade text-lg leading-relaxed">
+      I began my journey in customer service and transitioned to banking with Global&nbsp;IME&nbsp;Bank in 2016.
+      At NIC&nbsp;ASIA, my branch was awarded <span class="italic">“Best&nbsp;New&nbsp;Branch”</span> within six months of operation.
+      Since 2020 I’ve been leveraging my professional background to advocate for inclusive development and trans rights across Nepal.
+    </p>
+  </section>
+
       {/* Experience */}
       <section className="max-w-4xl mx-auto px-4 py-12">
         <h2 className="text-2xl font-semibold mb-6">Professional Experience</h2>
