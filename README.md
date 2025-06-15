@@ -1,5 +1,4 @@
-# 🌟 Pratik Thapa – Developer Portfolio
-
+# 🌟 Pratik Thapa 
 A modern, responsive personal portfolio built with **Next.js (App Router)** and **Tailwind CSS**, designed to showcase my work, skills, and advocacy.
 
 ---

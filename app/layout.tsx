@@ -14,8 +14,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="bg-gray-100 text-gray-800 font-sans">
-        {children}
+      <body>
+        <main className="antialiased text-gray-800 bg-gray-50">
+          {children}
+        </main>
+
       </body>
     </html>
   );
